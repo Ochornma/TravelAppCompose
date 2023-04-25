@@ -2,7 +2,7 @@ package com.example.travelappcompose.home.model
 
 import androidx.annotation.DrawableRes
 
-data class Category(
+data class HomeScreeItemNames(
     val name: String,
     @DrawableRes
     val imageName: Int

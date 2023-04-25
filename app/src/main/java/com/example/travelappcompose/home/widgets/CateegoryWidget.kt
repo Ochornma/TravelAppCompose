@@ -19,17 +19,17 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.travelappcompose.R
-import com.example.travelappcompose.home.model.Category
+import com.example.travelappcompose.home.model.HomeScreeItemNames
 import com.example.travelappcompose.ui.theme.TravelAppComposeTheme
 
 @Composable
 fun CategoryWidget(){
 val items = mutableListOf(
-    Category("Art", imageName = R.drawable.palette),
-    Category("Sports", imageName = R.drawable.sports),
-    Category("Live Events", imageName = R.drawable.music),
-    Category("Food", imageName = R.drawable.food),
-    Category("History", imageName = R.drawable.book),
+    HomeScreeItemNames("Art", imageName = R.drawable.palette),
+    HomeScreeItemNames("Sports", imageName = R.drawable.sports),
+    HomeScreeItemNames("Live Events", imageName = R.drawable.music),
+    HomeScreeItemNames("Food", imageName = R.drawable.food),
+    HomeScreeItemNames("History", imageName = R.drawable.book),
 )
     val scrollState = rememberScrollState()
     Row(
