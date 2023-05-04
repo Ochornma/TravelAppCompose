@@ -81,6 +81,9 @@ fun HomeScreen() {
                 Box(modifier = Modifier.height(100.dp)) {
                     
                 }
+                Box(modifier = Modifier.height(100.dp)) {
+
+                }
 
             }
 
